@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 export const UseFetch = (apipath, queryTerm = "") => {
   const [data, setData] = useState([]);
   const key = `37752c76a5af5e13ebe10f049f679f22`;
-  // console.log(key);
+
 
   const url = `https://api.themoviedb.org/3/${apipath}?api_key=${key}&query=${queryTerm}`;
 
