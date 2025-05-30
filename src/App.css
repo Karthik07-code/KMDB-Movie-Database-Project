@@ -38,10 +38,10 @@ body{
     background: linear-gradient(135deg, #6c757d, #343a40);
   }
   
-  /* .card:hover {
-    transform: translateY(-5px);
+  .card:hover {
+    transform: translateY(-7px);
     transition: transform 0.3s ease-in-out;
-  } */
+  }
   
   .card {
     transition: box-shadow 0.3s ease-in-out;
